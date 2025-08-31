@@ -4,5 +4,3 @@ export const redis = new Redis({
   token:process.env.REDIS_TOKEN!
 })
 
-await redis.set("foo", "bar");
-await redis.get("foo");
